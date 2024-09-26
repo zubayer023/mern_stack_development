@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html forms</title>
+    <link rel="stylesheet" href="../HTML FORM/assets/css/style.css" />
+  </head>
+  <body>
+    <form action="useraccount.php" method="get">
+      <label for="username">UserName:</label> <br />
+      <input id="username" type="text" /> <br />
+      <label for="password">password</label> <br />
+      <input type="password" name="" id="password" /><br />
+      <input type="text" list="mylist" />
+      <datalist id="mylist">
+        <option value="Dhaka">Dhaka</option>
+        <option value="Rajshahi">Rajshahi</option>
+      </datalist>
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="inside your details"
+      ></textarea>
+      <label for="">Gender</label>
+      <input type="radio" name="gender" value="male" id="male" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" value="female" id="female" />
+      <label for="male">Male</label> <br />
+
+      <select name="" id="">
+        <option value="Female">Female</option>
+        <option value="Male">Male</option>
+      </select>
+      <button type="button">Submit</button>
+    </form>
+  </body>
+</html>
