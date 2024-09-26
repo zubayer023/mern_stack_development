@@ -1,0 +1,25 @@
+.header {
+}
+
+.header a {
+  display: inline-block;
+  color: red;
+  text-decoration: none;
+  margin: 50px;
+}
+
+.navbar {
+  max-width: 500px;
+  border: 15px solid green;
+  background-color: lightgray;
+  padding: 50px;
+  margin: auto;
+}
+
+#innerLink {
+  display: block;
+  width: 200px;
+  margin: auto;
+  padding: 25px;
+  background-color: lightgreen;
+}
