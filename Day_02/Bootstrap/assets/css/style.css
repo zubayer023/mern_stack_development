@@ -1,0 +1,11 @@
+.container {
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.col-4 {
+  border: 3px solid seagreen;
+}
+.col-8 {
+  border: 3px solid seagreen;
+}
