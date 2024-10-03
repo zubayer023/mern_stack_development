@@ -1,5 +1,7 @@
-const htag = document.getElementById("demo");
+let age = 30;
 
-function myFunction() {
-  htag.innerHTML = "hello, JavaScript";
+if (age < 30) {
+  console.log("He is eligable for job");
+} else {
+  console.log("try another jon");
 }
